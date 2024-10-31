@@ -1,0 +1,82 @@
+.partnify-settings .form-field {
+    margin-bottom: 10px;
+}
+
+.partnify-settings .form-field-label {
+    width: 150px;
+    float: left;
+    font-weight: 600;
+}
+
+.partnify-settings input[type=text] {
+    max-width: 350px;
+    width: 100%;
+    border: 2px solid #f1f1f1;
+}
+
+.connection-status {
+    padding: 0 5px;
+    color: #fff;
+    background: #5a5a5a;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #f1f1f1;
+}
+
+.connection-status.connected {
+    background: #390;
+}
+
+.partnify-settings form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 30px 20px;
+}
+
+.partnify-settings .connection-status {
+    margin: 0;
+}
+
+.setting-changes {
+    display: inline-block;
+}
+
+.campaign-assets-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.campaign-assets-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campaign-assets-wrapper .assets-radio {
+    max-height: 140px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.campaign-assets-wrapper img {
+    width: calc( 100% - 30px);
+}
+
+.partnify-settings .parsley-errors-list {
+    margin-left: 150px;
+    color: #e80808;
+    margin-top: 0;
+}
+
+.widget-partnify-wrapper label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.assets-not-found {
+    color: #f00;
+}
